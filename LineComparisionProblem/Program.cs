@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To Line Comparision Problem");
+            Comparision comparison = new Comparision(3,4,8,9);
+            comparison.CalculateLength();
         }
     }
 }
